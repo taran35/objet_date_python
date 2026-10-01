@@ -86,7 +86,7 @@ class Date:
 
     <!> Definir les dates sans les 0 devant les chiffres (ex: 1/1/2024 et non 01/01/2024) 
     Pareil dans les methodes (ex: .difference(Date(1,1,2024)) et non .difference(Date(01,01,2024)))
-    -> Les dates seront affichées avec le format (jj/mm/2009) via un f-string
+    -> Les dates seront affichées avec le format (jj/mm/yyyy) via un f-string
     """
     def __init__(self, day: int, month: int, year: int):
         """
